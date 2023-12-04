@@ -8,10 +8,10 @@ public class Bismillaah
 
         Scanner scanner = new Scanner(System.in);
 
-        int num1 = scanner.nextLine();
-        int num1 = scanner.nextLine();
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
-        int sum = int1 + int2;
+        int sum = num1 + num2;
         System.out.println(sum);
     }
 }
